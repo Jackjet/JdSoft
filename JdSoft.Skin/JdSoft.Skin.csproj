@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9447F32D-3600-4BD5-883D-56F64E7DD395}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JdSoft.Skin</RootNamespace>
+    <AssemblyName>JdSoft.Skin</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net20\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\JdPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\JdMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\JdMenu.designer.cs">
+      <DependentUpon>JdMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MsgBox.Designer.cs">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\MsgBoxType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\BackgroundMode.cs" />
+    <Compile Include="Class\DrawRectUtil.cs" />
+    <Compile Include="Class\ImageObject.cs" />
+    <Compile Include="Class\NativeMethods.cs" />
+    <Compile Include="Class\Win32.cs" />
+    <Compile Include="Control\JdButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\JdTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\JdTabControl.Designer.cs">
+      <DependentUpon>JdTabControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\JdTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\JdTextBox.Designer.cs">
+      <DependentUpon>JdTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\JdToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Control\ToolStripRenderer.cs" />
+    <Compile Include="Form\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkinSetting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Res\btn\sysbtn_close.png" />
+    <Content Include="Res\btn\sysbtn_max.png" />
+    <Content Include="Res\btn\sysbtn_menu.png" />
+    <Content Include="Res\btn\sysbtn_min.png" />
+    <Content Include="Res\btn\sysbtn_skin.png" />
+    <Content Include="Res\form\light_bkg.png" />
+    <Content Include="Res\form\window_shadow.png" />
+    <Content Include="Res\icon\msgbox_error.png" />
+    <Content Include="Res\icon\msgbox_info.png" />
+    <Content Include="Res\icon\msgbox_question.png" />
+    <Content Include="Res\icon\msgbox_success.png" />
+    <Content Include="Res\icon\msgbox_warning.png" />
+    <Content Include="Res\toolstrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\MsgBox.resx">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\JdTextBox.resx">
+      <DependentUpon>JdTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

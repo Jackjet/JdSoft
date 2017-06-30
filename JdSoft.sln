@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdSoft.Client", "JinDou.Client\JdSoft.Client.csproj", "{18773F1D-89BF-4545-B5C4-D428FAF9DF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdSoft.Dao", "JinDou.Dao\JdSoft.Dao.csproj", "{E8079462-0F1A-4CFE-A602-FC6BE1D9B5BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdSoft.Service", "JinDou.Service\JdSoft.Service.csproj", "{35D83240-1DB5-4507-A260-60D7CF57880E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdSoft.Model", "JinDou.Model\JdSoft.Model.csproj", "{868E62F5-46A1-49E0-B459-865ABF88D25A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdSoft.Common", "JinDou.Common\JdSoft.Common.csproj", "{9026B494-3B66-4584-A908-18BBEB38CDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdSoft.Contract", "JinDou.Contract\JdSoft.Contract.csproj", "{232A9EE3-CDA2-40C6-B77E-D129763DB025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JdSoft.Skin", "JdSoft.Skin\JdSoft.Skin.csproj", "{9447F32D-3600-4BD5-883D-56F64E7DD395}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18773F1D-89BF-4545-B5C4-D428FAF9DF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18773F1D-89BF-4545-B5C4-D428FAF9DF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18773F1D-89BF-4545-B5C4-D428FAF9DF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18773F1D-89BF-4545-B5C4-D428FAF9DF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8079462-0F1A-4CFE-A602-FC6BE1D9B5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8079462-0F1A-4CFE-A602-FC6BE1D9B5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8079462-0F1A-4CFE-A602-FC6BE1D9B5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8079462-0F1A-4CFE-A602-FC6BE1D9B5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D83240-1DB5-4507-A260-60D7CF57880E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D83240-1DB5-4507-A260-60D7CF57880E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D83240-1DB5-4507-A260-60D7CF57880E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D83240-1DB5-4507-A260-60D7CF57880E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{868E62F5-46A1-49E0-B459-865ABF88D25A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{868E62F5-46A1-49E0-B459-865ABF88D25A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{868E62F5-46A1-49E0-B459-865ABF88D25A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{868E62F5-46A1-49E0-B459-865ABF88D25A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9026B494-3B66-4584-A908-18BBEB38CDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9026B494-3B66-4584-A908-18BBEB38CDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9026B494-3B66-4584-A908-18BBEB38CDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9026B494-3B66-4584-A908-18BBEB38CDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{232A9EE3-CDA2-40C6-B77E-D129763DB025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232A9EE3-CDA2-40C6-B77E-D129763DB025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232A9EE3-CDA2-40C6-B77E-D129763DB025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232A9EE3-CDA2-40C6-B77E-D129763DB025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9447F32D-3600-4BD5-883D-56F64E7DD395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9447F32D-3600-4BD5-883D-56F64E7DD395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9447F32D-3600-4BD5-883D-56F64E7DD395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9447F32D-3600-4BD5-883D-56F64E7DD395}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
