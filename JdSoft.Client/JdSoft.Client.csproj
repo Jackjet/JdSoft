@@ -101,23 +101,23 @@
       <Project>{9447f32d-3600-4bd5-883d-56f64e7dd395}</Project>
       <Name>JdSoft.Skin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JinDou.Common\JdSoft.Common.csproj">
+    <ProjectReference Include="..\JdSoft.Common\JdSoft.Common.csproj">
       <Project>{9026b494-3b66-4584-a908-18bbeb38cdf3}</Project>
       <Name>JdSoft.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JinDou.Contract\JdSoft.Contract.csproj">
+    <ProjectReference Include="..\JdSoft.Contract\JdSoft.Contract.csproj">
       <Project>{232a9ee3-cda2-40c6-b77e-d129763db025}</Project>
       <Name>JdSoft.Contract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JinDou.Dao\JdSoft.Dao.csproj">
+    <ProjectReference Include="..\JdSoft.Dao\JdSoft.Dao.csproj">
       <Project>{e8079462-0f1a-4cfe-a602-fc6be1d9b5bd}</Project>
       <Name>JdSoft.Dao</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JinDou.Model\JdSoft.Model.csproj">
+    <ProjectReference Include="..\JdSoft.Model\JdSoft.Model.csproj">
       <Project>{868e62f5-46a1-49e0-b459-865abf88d25a}</Project>
       <Name>JdSoft.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JinDou.Service\JdSoft.Service.csproj">
+    <ProjectReference Include="..\JdSoft.Service\JdSoft.Service.csproj">
       <Project>{35d83240-1db5-4507-a260-60d7cf57880e}</Project>
       <Name>JdSoft.Service</Name>
     </ProjectReference>
